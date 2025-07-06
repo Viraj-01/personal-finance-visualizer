@@ -15,7 +15,7 @@ export default function Home() {
   const [refresh, setRefresh] = useState(false);
 
   return (
-    <main className="max-w-6xl mx-auto py-8 px-4 space-y-10">
+    <main className="max-w-6xl mx-auto py-8 px-4 space-y-10 bg-white min-h-screen">
       {/* Header */}
       <header className="text-center space-y-2">
         <h1 className="text-4xl font-bold text-gray-800">
